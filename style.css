@@ -1,0 +1,107 @@
+/* Main Styles */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      /* Media Query for smaller screens */
+      @media only screen and (max-width: 600px) {
+        /* Adjust CSS properties for smaller screens */
+        body {
+          font-size: 14px;
+        }
+      }
+      
+      /* Media Query for larger screens */
+      @media only screen and (min-width: 1200px) {
+        /* Adjust CSS properties for larger screens */
+        body {
+          font-size: 18px;
+        }
+      }
+
+header {
+   background-color: #ff7e15;
+   color: #fff;
+   padding: 5px;
+}
+main {
+   padding: 20px;
+}
+
+footer {
+   background-color: #ff7e15;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+
+h1, h2 {
+   margin: 0;
+   padding: 0;
+}
+
+.upload-section, .search-section {
+   margin-bottom: 20px;
+}
+
+form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+input[type="file"], input[type="text"] {
+   padding: 10px;
+   margin-right: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+}
+
+button[type="submit"] {
+   padding: 10px 20px;
+   background-color: #ff7e15;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+button[type="submit"]:hover {
+   background-color: #ff7e15;
+}
+
+input::-webkit-file-upload-button {
+  padding: 10px 20px;
+  background-color: #ff7e15;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input::-webkit-file-upload-button:hover {
+   background-color: #555;
+}
+        /* Custom CSS for anime audience */
+        .anime-link {
+            text-decoration: none;
+            display: inline-block;
+            background-color: #ff7e15;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 10px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .anime-link:hover {
+            background-color: #e6007e;
+        }
+#lable {
+  visibility: hidden;
+}
